@@ -9,20 +9,21 @@ namespace Assets.Scripts.CommandPattern.Example_02
     {
         private readonly ICommand[] _offCommands;
         private readonly ICommand[] _onCommands;
+        private readonly NoCommand _noCommand;
 
         /// <summary>
-        /// 遥控器
+        ///     遥控器
         /// </summary>
         public RemoteControl()
         {
             _onCommands = new ICommand[7];
             _offCommands = new ICommand[7];
 
-            ICommand noCommand = new NoCommand();
+            _noCommand = new NoCommand();
             for (var i = 0; i < 7; i++)
             {
-                _onCommands[i] = noCommand;
-                _offCommands[i] = noCommand;
+                _onCommands[i] = _noCommand;
+                _offCommands[i] = _noCommand;
             }
         }
 
@@ -34,12 +35,14 @@ namespace Assets.Scripts.CommandPattern.Example_02
 
         public void OnButtonWasPushed(int slot)
         {
-            _onCommands[slot].Execute();
+            if (_offCommands[slot] != _noCommand)
+                _onCommands[slot].Execute();
         }
 
         public void OffButtonWasPushed(int slot)
         {
-            _offCommands[slot].Execute();
+            if (_offCommands[slot] != _noCommand)
+                _offCommands[slot].Execute();
         }
 
         public void ToString()

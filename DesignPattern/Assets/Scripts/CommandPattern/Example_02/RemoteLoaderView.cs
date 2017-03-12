@@ -51,6 +51,8 @@ namespace Assets.Scripts.CommandPattern.Example_02
             remoteControl.OffButtonWasPushed(2);
             remoteControl.OnButtonWasPushed(3);
             remoteControl.OffButtonWasPushed(3);
+            remoteControl.OnButtonWasPushed(4);
+            remoteControl.OffButtonWasPushed(4);
         }
     }
 }
