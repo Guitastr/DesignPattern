@@ -1,0 +1,10 @@
+5.5.1f1:3.0.0.1
+StandaloneWindows
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/Managed/UnityEngine.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
+F:/学习/Unity/unity5.5.1f1/Sotfware/Editor/Data/Managed/UnityEditor.dll
